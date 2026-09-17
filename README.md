@@ -40,13 +40,13 @@ This fork is not published to PyPI under its own name, so install it **from this
 plain `pip install openai-agents` would fetch the upstream package instead):
 
 ```bash
-pip install "git+https://github.com/Pocomotoxx/agents-python.git"
+pip install "git+https://github.com/Pocomotoxx/workflow-agent.git"
 ```
 
 Or from a local clone (recommended for development):
 
 ```bash
-git clone https://github.com/Pocomotoxx/agents-python.git
+git clone https://github.com/Pocomotoxx/workflow-agent.git
 cd agents-python
 python -m venv .venv && . .venv/bin/activate      # Windows: .venv\Scripts\activate
 pip install -e ".[litellm]"                        # 'litellm' extra enables non-OpenAI providers

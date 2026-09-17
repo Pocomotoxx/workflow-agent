@@ -25,4 +25,4 @@ munkafolyamat-vezényléssel, rendszergenerálással és vizuális tervezővel �
 Ezek az oldalak a repóban, a `wiki/` mappában élnek, így a kóddal együtt verziózódnak. Ha
 GitHub-wikiként is ki szeretnéd szolgálni: kapcsold be a **Settings → Features → Wikis** opciót, majd
 másold be ezeket a fájlokat a wikibe (a wiki külön git-repó a
-`github.com/Pocomotoxx/agents-python.wiki.git` címen), vagy nézegesd őket itt, a `wiki/` mappában.
+`github.com/Pocomotoxx/workflow-agent.wiki.git` címen), vagy nézegesd őket itt, a `wiki/` mappában.

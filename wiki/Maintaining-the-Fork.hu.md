@@ -53,7 +53,7 @@ Az URL, a csillagok és az előzmény megmarad.
 ```bash
 # 1. Hozz létre egy ÜRES új repót GitHubon (ne forkot), pl. Pocomotoxx/agents-platform
 # 2. Tükrözd bele az előzményedet:
-git clone --bare https://github.com/Pocomotoxx/agents-python.git tmp-mirror
+git clone --bare https://github.com/Pocomotoxx/workflow-agent.git tmp-mirror
 cd tmp-mirror
 git push --mirror https://github.com/Pocomotoxx/agents-platform.git
 cd .. && rm -rf tmp-mirror

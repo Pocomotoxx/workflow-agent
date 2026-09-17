@@ -16,15 +16,15 @@ PyPI-ra, ezért a repóból telepítsd, ne a PyPI-ról.
 **GitHubról (leggyorsabb):**
 
 ```bash
-pip install "git+https://github.com/Pocomotoxx/agents-python.git"
+pip install "git+https://github.com/Pocomotoxx/workflow-agent.git"
 # a nem-OpenAI providerekkel együtt:
-pip install "openai-agents[litellm] @ git+https://github.com/Pocomotoxx/agents-python.git"
+pip install "openai-agents[litellm] @ git+https://github.com/Pocomotoxx/workflow-agent.git"
 ```
 
 **Helyi klónból (fejlesztéshez ezt ajánljuk):**
 
 ```bash
-git clone https://github.com/Pocomotoxx/agents-python.git
+git clone https://github.com/Pocomotoxx/workflow-agent.git
 cd agents-python
 python -m venv .venv
 . .venv/bin/activate            # Windowson (PowerShell): .venv\Scripts\Activate.ps1

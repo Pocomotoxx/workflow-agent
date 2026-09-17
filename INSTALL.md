@@ -16,15 +16,15 @@ under its own name, install it from the repository — not from PyPI.
 **From GitHub (quickest):**
 
 ```bash
-pip install "git+https://github.com/Pocomotoxx/agents-python.git"
+pip install "git+https://github.com/Pocomotoxx/workflow-agent.git"
 # with non-OpenAI providers enabled:
-pip install "openai-agents[litellm] @ git+https://github.com/Pocomotoxx/agents-python.git"
+pip install "openai-agents[litellm] @ git+https://github.com/Pocomotoxx/workflow-agent.git"
 ```
 
 **From a local clone (recommended for development):**
 
 ```bash
-git clone https://github.com/Pocomotoxx/agents-python.git
+git clone https://github.com/Pocomotoxx/workflow-agent.git
 cd agents-python
 python -m venv .venv
 . .venv/bin/activate            # Windows (PowerShell): .venv\Scripts\Activate.ps1

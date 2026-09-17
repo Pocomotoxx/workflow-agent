@@ -50,7 +50,7 @@ URL, stars, and history.
 ```bash
 # 1. Create a new EMPTY repo on GitHub (not a fork), e.g. Pocomotoxx/agents-platform
 # 2. Mirror your history into it:
-git clone --bare https://github.com/Pocomotoxx/agents-python.git tmp-mirror
+git clone --bare https://github.com/Pocomotoxx/workflow-agent.git tmp-mirror
 cd tmp-mirror
 git push --mirror https://github.com/Pocomotoxx/agents-platform.git
 cd .. && rm -rf tmp-mirror

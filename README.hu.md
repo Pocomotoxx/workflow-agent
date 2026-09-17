@@ -45,13 +45,13 @@ A fork saját néven nem került fel a PyPI-ra, ezért **ebből a repóból** te
 `pip install openai-agents` az eredeti csomagot hozná le helyette):
 
 ```bash
-pip install "git+https://github.com/Pocomotoxx/agents-python.git"
+pip install "git+https://github.com/Pocomotoxx/workflow-agent.git"
 ```
 
 Helyi klónból (fejlesztéshez ezt ajánljuk):
 
 ```bash
-git clone https://github.com/Pocomotoxx/agents-python.git
+git clone https://github.com/Pocomotoxx/workflow-agent.git
 cd agents-python
 python -m venv .venv && . .venv/bin/activate      # Windowson: .venv\Scripts\activate
 pip install -e ".[litellm]"                        # a 'litellm' extra hozza a nem-OpenAI providereket

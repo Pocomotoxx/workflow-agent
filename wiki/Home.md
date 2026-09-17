@@ -23,5 +23,5 @@ system-generation, and a visual designer — while keeping the upstream `agents`
 
 These pages live in the repo under `wiki/` so they are versioned with the code. To also serve them as
 the GitHub Wiki: enable **Settings → Features → Wikis**, then either copy these files into the wiki
-(the wiki is its own git repo at `github.com/Pocomotoxx/agents-python.wiki.git`) or keep browsing
+(the wiki is its own git repo at `github.com/Pocomotoxx/workflow-agent.wiki.git`) or keep browsing
 them here in `wiki/`.
