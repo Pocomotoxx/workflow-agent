@@ -103,7 +103,7 @@ dev = [
   "rich>=13.1.0, <15",
   "mkdocs>=1.6.0",
   "mkdocs-material>=9.7.7",
-  "pymdown-extensions>=11.0.1",
+  "pymdown-extensions>=11.0.2",
   "pygments>=2.20.0",
   "mkdocstrings[python]>=0.28.0",
   "mkdocs-static-i18n",
